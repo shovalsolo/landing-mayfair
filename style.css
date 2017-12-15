@@ -1,0 +1,87 @@
+@import "flex.css";
+
+
+body{
+  background-image: url('img/fitness-wallpaper.jpg');
+  background-color: rgba(255, 255, 255, 0.6) ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#particle-canvas {
+  width: 100%;
+  height: 100%;
+}
+
+.fieldset {
+  border: thin solid #ccc;
+  border-radius: 4px;
+  padding: 20px;
+  padding-left: 40px;
+  background: #fbfbfb;
+}
+
+.legend {
+  color: #678;
+}
+
+.form-control {
+  width: 95%;
+}
+
+.label small {
+  color: #678 !important;
+}
+
+.span.req {
+  color: maroon;
+  font-size: 112%;
+}
+
+.help-block{
+  color: red;
+  background: gray;
+}
+
+.lbl{
+  color: black;
+}
+
+.top-title{
+  color: black;
+  font-family: 'Fredoka One',cursive;
+}
+
+.title {
+  color: black;
+}
+
+
+.img{
+  color: transparent;
+  background: transparent;
+}
+
+.bor-das{
+  border-color: black;
+  border-style: dashed;
+}
+
+.sign-box{
+
+}
+
+.off{
+  font-size: 1.5em;
+  color: red;
+}
+
+.coupon-box{
+  margin: 30px 10px 5px 10px;
+}
+
+.txt-box{
+  padding: 0px 0px 0px 4px;
+}
