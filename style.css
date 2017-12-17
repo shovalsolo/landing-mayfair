@@ -42,7 +42,8 @@ body{
 
 .help-block{
   color: red;
-  background: gray;
+  background:white;
+  font-weight: bold;
 }
 
 .lbl{
@@ -58,7 +59,6 @@ body{
   color: black;
 }
 
-
 .img{
   color: transparent;
   background: transparent;
@@ -69,8 +69,7 @@ body{
   border-style: dashed;
 }
 
-.sign-box{
-   
+.sign-box{   
   border-style: dashed ;
    border-color: red;
 }
@@ -86,4 +85,9 @@ body{
 
 .txt-box{
   padding: 0px 0px 0px 4px;
+}
+.copy-footer{
+  background-color: white;
+  color: #007bff;
+  font-weight: bold;
 }
