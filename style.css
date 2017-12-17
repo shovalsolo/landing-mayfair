@@ -70,7 +70,9 @@ body{
 }
 
 .sign-box{
-
+   
+  border-style: dashed ;
+   border-color: red;
 }
 
 .off{
