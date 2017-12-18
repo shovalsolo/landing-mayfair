@@ -29,6 +29,10 @@ body{
   color: #678;
 }
 
+.link{
+  font-weight: bold;
+}
+
 .form-control {
   width: 95%;
 }
