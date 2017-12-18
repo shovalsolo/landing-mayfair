@@ -2,16 +2,42 @@
 
 <head>
     <title>MayFair-Clubs</title>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
-    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous"/>
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="validation.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <body>
+    <hr>
+    <a name="home"></a>
+    <nav class="navbar navbar-expand-sm">
+        <!-- A navbar with a menu that is collapsed for small screens -->
+        <div class="container">
+            <!-- <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNav"> -->
+                <!-- A button that expand/collapse the menu -->
+                <!-- <span class="navbar-toggler-icon"></span> -->
+            <!-- </button> -->
+            <div class="collapse navbar-collapse" id="mainNav">
+                <!-- The menu with the links -->
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#home">Home</a>
+                    <!-- <a class="nav-item nav-link" href="#about">About</a> -->
+                    <a class="nav-item nav-link" href="#amenities">Amenities</a>
+                    <a class="nav-item nav-link" href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <hr>
+
     <div>
         <div class="flex flex-jus-spa-bet bor-das coupon-box">
 
@@ -22,8 +48,8 @@
             </div>
 
             <div class="flex flex-jus-spa-aro flex-ali-start flex-dir-col txt-box">
-                <p class="top-title"><span class="off">Stop sweating your money $$$<span/> </p>
-                <p class="top-title">Register and get <span class="off">$500 off</span> our membership fees</p>
+                <h4 class="top-title"><span class="off">Stop sweating your money $$$<span/> </h4>
+                <h5 class="top-title">Register and get <span class="off under-line">$500 off</span> our membership fees</h5>
             </div>
 
             <div>
@@ -32,12 +58,28 @@
 
         </div>
 
+        <br/>
+
+        <!-- <section>
+                <div class="flex flex-center flex-dir-col text-ali-c about-box">
+                    <h2>About us</h2>
+                    <h4>The Mayfair Experience is what our Members appreciate and love. </h4>
+                    <h4> One Experience many ways to enjoy! With four locations in
+                    Toronto, our tennis, squash and fitness clubs offer great staff, wonderful facilities, world-class training and inviting
+                    social settings, which provide fun, fitness and comfort.</h4>
+                    <h4> Our goal is to provide you with an exceptional mix of structured
+                    activity and informal opportunity to enjoy positive lifestyles.</h4>
+                </div>
+        </section> -->
+
+        <hr>
+
         <div class="flex flex-center sign-box coupon-box">
 
-            <div class="container well" style="margin-top: 50px">
+            <div class="container" style="margin-top: 50px">
                 <form id="register-form">
 
-                    <p class="title">Enter your details for informetion</p>
+                    <h2 class="title">Enter your details for informetion</h2>
             
                     <div class="form-group col-md-6">
                         <label class="lbl">First name : </label>
@@ -68,8 +110,81 @@
         </div>
 
     </div>
+
+   <br/>
+   <a name="amenities"></a>
+   <hr>
+    <!--  -->
+    
+    <div class="container">
+        <h2>Our Amenities </h2>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+            </ol>
+    
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="img/slide11.jpg" alt="May-fair" style="width:100%;">
+                </div>
+    
+                <div class="item">
+                    <img src="img/slide21.jpg" alt="Chicago" style="width:100%;">
+                </div>
+    
+                <div class="item">
+                    <img src="img/slide31.jpg" alt="New york" style="width:100%;">
+                </div>
+    
+                <div class="item">
+                    <img src="img/slide41.jpg" alt="New york" style="width:100%;">
+                </div>
+    
+                <div class="item">
+                    <img src="img/slide51.jpg" alt="New york" style="width:100%;">
+                </div>
+            </div>
+    
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <br/>
+    <hr>
+    <!--  -->
+
+
     <br/>
     <footer>
+        <br>
+        <div class="flex flex-dir-col flex-center contact-box text-ali-c">
+            <h4>If you are interested in joining a Mayfair club, please contact Membership Services.</h4>
+            <div class="flex">
+                <i class="fa fa-phone-square fa-fw fa-2x" aria-hidden="true"></i>
+                <h4>(905) 475-0350</h4>
+            </div>
+            <div class="flex">
+                <i class="fa fa-envelope fa-fw fa-2x" aria-hidden="true"></i>
+                <h4>info@mayfairclubs.com</h4>
+            </div>
+        </div> 
+        
+        <br/>
+        <br/>
+        
         <div class="flex flex-center">
             <div>
                 <a href="https://www.facebook.com/mayfairclubstoronto">
@@ -96,6 +211,7 @@
                 <i class="fa fa-twitter-square fa-fw fa-3x" aria-hidden="true"></i>
                 </a>
             </div>
+            <a name="contact"></a>
         </div>
         <br/>
             <div class="flex flex-center">
